@@ -2,21 +2,22 @@ function fetchUsers() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("resultContainer").innerHTML = this.responseText;
+            document.getElementById("resultContainer").innerText = this.responseText;
         }
     };
+
+    // Add new User
     // let dataToSend = JSON.stringify({title: "Produto Teste"});
-    
-    // xhttp.open("POST", "https://dummyjson.com/products/add", true);
+    // xhttp.open("POST", "https://dummyjson.com/users/add", true);
     // xhttp.setRequestHeader("Content-Type", "application/json");
     // xhttp.send(dataToSend);
 
-    // Get single Product
-    // xhttp.open("GET", "https://dummyjson.com/products/99", true);
+    // Get single User
+    // xhttp.open("GET", "https://dummyjson.com/users/99", true);
     // xhttp.send();
 
-    // Get all Products
-    xhttp.open("GET", "https://dummyjson.com/products?limit=0", true);
+    // Get all Users
+    xhttp.open("GET", "https://dummyjson.com/users?limit=0", true);
     xhttp.send();
 }
 
