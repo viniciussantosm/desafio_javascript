@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.resultContainer {
+    width: 75%;
+    margin: 0 auto;
+    white-space: pre-wrap;
+    height: 250px;
+    overflow: scroll;
+    display: block;
+    border: 5px solid darkgoldenrod;
+    border-radius: 15px;
+    padding: 1em 2em;
+}
+
+/* .resultContainer::-webkit-scrollbar {
+    background-color: black;
+}
+  
+.resultContainer::-webkit-scrollbar-thumb {
+    background: red;
+} */
+.resultContainer::-webkit-scrollbar {
+    background-color: rgb(255, 255, 187);
+}
+
+.resultContainer::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 0);
+}
