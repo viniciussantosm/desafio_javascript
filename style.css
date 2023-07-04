@@ -21,3 +21,20 @@
 .resultContainer::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 0);
 }
+
+#elementManipulation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evtButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+}
