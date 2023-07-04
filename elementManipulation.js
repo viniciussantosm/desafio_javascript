@@ -4,11 +4,6 @@ function createObject(e) {
     let elementContainer = document.getElementById("elementManipulation");
     const containerElements = elementContainer.childNodes.length;
 
-    let width = document.getElementById("CO_WIDTH");
-    let height = document.getElementById("CO_HEIGHT");
-    let backgroundColor = document.getElementById("CO_COLOR");
-    let borderRadius = document.getElementById("CO_RADIUS");
-
     let newDiv = document.createElement("div");
     newDiv.id = `e${Math.floor(Math.random() * 1000)}`;
     newDiv.classList.add("newElement");
