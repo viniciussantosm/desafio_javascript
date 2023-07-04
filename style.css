@@ -1,4 +1,4 @@
-body {
+.main-title {
     text-align: center;
 }
 
@@ -14,13 +14,6 @@ body {
     padding: 1em 2em;
 }
 
-/* .resultContainer::-webkit-scrollbar {
-    background-color: black;
-}
-  
-.resultContainer::-webkit-scrollbar-thumb {
-    background: red;
-} */
 .resultContainer::-webkit-scrollbar {
     background-color: rgb(255, 255, 187);
 }
