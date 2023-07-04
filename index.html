@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="main-title">XHR Script Test</h1>
-    <div>
-        <pre id="xhrResultContainer" class="resultContainer">
-        </pre>
+    <div class="content">
+        <h1 class="main-title">XHR Script Test</h1>
+        <div>
+            <pre id="xhrResultContainer" class="resultContainer">
+            </pre>
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="main-title">Manipulação de Elementos HTML</h1>
+        <div id="elementManipulation" class="resultContainer"></div>
+        <button type="submit" class="evtButton" onclick="createObject(event)">Criar Objeto</button>
     </div>
     <script src="xhrScript.js"></script>
+    <script src="elementManipulation.js"></script>
 </body>
 </html>
