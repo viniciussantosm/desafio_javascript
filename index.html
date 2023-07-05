@@ -29,9 +29,18 @@
         <div id="promise" class="resultContainer"></div>
         <button type="submit" class="evtButton" onclick="fetchCarts()">Obter Carrinhos</button>
     </div>
+    <div class="content">
+        <h1 class="main-title">Class Test</h1>
+        <div id="classTest" class="resultContainer"></div>
+    </div>
     <script src="js/promise.js"></script>
     <script src="js/asyncAwait.js"></script>
     <script src="js/xhrScript.js"></script>
     <script src="js/elementManipulation.js"></script>
+    <script type="module">
+        import {App} from './js/App.js';
+        const app = new App();
+        app.fetchData();
+    </script>
 </body>
 </html>
