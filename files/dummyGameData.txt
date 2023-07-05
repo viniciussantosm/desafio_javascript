@@ -1,0 +1,52 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "God of War",
+            "year": 2022,
+            "genre": "action"
+        },
+        {
+            "id": 2,
+            "name": "Bayonetta 3",
+            "year": 2022,
+            "genre": "action"
+        },
+        {
+            "id": 3,
+            "name": "Star Citizen",
+            "year": 2023,
+            "genre": "simulation"
+        },
+        {
+            "id": 4,
+            "name": "Euro Truck Simulator 2",
+            "year": 2012,
+            "genre": "simulation"
+        },
+        {
+            "id": 5,
+            "name": "Farming Simulator 23",
+            "year": 2023,
+            "genre": "simulation"
+        },
+        {
+            "id": 6,
+            "name": "Dead by Daylight",
+            "year": 2016,
+            "genre": "horror"
+        },
+        {
+            "id": 7,
+            "name": "The Callisto Protocol",
+            "year": 2022,
+            "genre": "horror"
+        },
+        {
+            "id": 8,
+            "name": "Call of Duty: Warzone",
+            "year": 2020,
+            "genre": "shooter"
+        }
+    ]
+}
