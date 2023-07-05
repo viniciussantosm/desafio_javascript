@@ -47,3 +47,16 @@
 #promise {
     font-size: 20px;
 }
+
+#classTest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gameItem {
+    margin: 1em 2em;
+    padding: 1em 2em;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+}
