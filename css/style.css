@@ -1,5 +1,29 @@
+:root {
+    --dark-yellow: rgb(218, 218, 0);
+    --medium-yellow: rgb(255, 255, 75);
+    --light-yellow: rgb(254, 254, 166);
+    --white: #fff;
+    --gold: darkgoldenrod;
+    --scrollbar-yellow: rgb(255, 255, 0);
+    --scrollbar-background-yellow: rgb(255, 255, 187);
+    --gray: #bbb;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--scrollbar-background-yellow);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-yellow);
+}
+
 .main-title {
     text-align: center;
+    font-weight: bold;
 }
 
 .resultContainer {
@@ -9,17 +33,18 @@
     height: 250px;
     overflow: scroll;
     display: block;
-    border: 5px solid darkgoldenrod;
+    border: 5px solid var(--gold);
     border-radius: 15px;
     padding: 1em 2em;
+    box-sizing: border-box;
 }
 
 .resultContainer::-webkit-scrollbar {
-    background-color: rgb(255, 255, 187);
+    background-color: var(--scrollbar-background-yellow);
 }
 
 .resultContainer::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 0);
+    background-color: var(--scrollbar-yellow);
 }
 
 .content {
@@ -41,6 +66,23 @@
     display: block;
     margin: 0 auto;
     margin-top: 1em;
+    padding: 1em 2em;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--dark-yellow);
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.evtButton:hover {
+    transition: all .1s ease-out;
+    background-color: var(--medium-yellow);
+}
+
+.evtButton:active {
+    transition: all .3s ease-out;
+    background-color: var(--light-yellow);
 }
 
 #asyncAwait,
@@ -49,16 +91,17 @@
 }
 
 #classTest {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
 }
 
 .gameItem {
     margin: 1em 2em;
     padding: 1em 2em;
-    border: 1px solid #bbb;
+    border: 1px solid var(--gray);
     border-radius: 15px;
+    font-size: 1.3rem;
 }
 
 #iifeTest {
