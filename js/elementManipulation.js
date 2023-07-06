@@ -1,5 +1,4 @@
-function createObject(e) {
-    e.preventDefault();
+function createObject() {
 
     let elementContainer = document.getElementById("elementManipulation");
     const containerElements = elementContainer.childNodes.length;
